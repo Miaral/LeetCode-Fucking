@@ -21,6 +21,7 @@ public:
         //         }
         //     }
         // }
+        // 使用map，减小时间复杂度
         unordered_map<int,int> endTable;
         int n = nums.size();
         for(int i=0;i<n;i++){
